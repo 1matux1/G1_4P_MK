@@ -16,6 +16,10 @@ def quick_sort(arr):
     return quick_sort(left) + middle + quick_sort(right)
 
 arr = [64, 34, 25, 12, 22, 11, 90]
+
+print("Tablica do posortowania:")
+print(arr)
+
 print("Sortowanie bąbelkowe:")
 print(bubble_sort(arr.copy()))
 print("Sortowanie szybkie:")
